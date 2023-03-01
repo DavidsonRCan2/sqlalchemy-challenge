@@ -2,32 +2,32 @@
 
 Precipitation Analysis (16 points)
 To receive all points, you must
-Create a query that finds the most recent date in the dataset (8/23/2017) (2 points)
+<!-- Create a query that finds the most recent date in the dataset (8/23/2017) (2 points) -->
 <!-- ('2017-08-23',) -->
 
-Create a query that collects only the date and precipitation for the last year of data without passing the date as a variable (4 points)
+<!-- Create a query that collects only the date and precipitation for the last year of data without passing the date as a variable (4 points) -->
 
-Save the query results to a Pandas DataFrame to create date and precipitation columns (2 points)
-
-Sort the DataFrame by date (2 points)
-
-Plot the results by using the DataFrame plot method with date as the x and precipitation as the y variables (4 points)
-
-Use Pandas to print the summary statistics for the precipitation data (2 points)
-
-Station Analysis (16 points)
-To receive all points, you must
-Design a query that correctly finds the number of stations in the dataset (9) (2 points)
-
-Design a query that correctly lists the stations and observation counts in descending order and finds the most active station (USC00519281) (2 points)
-
-Design a query that correctly finds the min, max, and average temperatures for the most active station (USC00519281) (3 points)
-
-Design a query to get the previous 12 months of temperature observation (TOBS) data that filters by the station that has the greatest number of observations (3 points)
-
-Save the query results to a Pandas DataFrame (2 points)
-
-Correctly plot a histogram with bins=12 for the last year of data using tobs as the column to count. (4 points)
+<!-- Save the query results to a Pandas DataFrame to create date and precipitation columns (2 points) -->
+<!--  -->
+<!-- Sort the DataFrame by date (2 points) -->
+<!--  -->
+<!-- Plot the results by using the DataFrame plot method with date as the x and precipitation as the y variables (4 points) -->
+<!--  -->
+<!-- Use Pandas to print the summary statistics for the precipitation data (2 points) -->
+<!--  -->
+<!-- Station Analysis (16 points) -->
+<!-- To receive all points, you must -->
+<!-- Design a query that correctly finds the number of stations in the dataset (9) (2 points) -->
+<!--  -->
+<!-- Design a query that correctly lists the stations and observation counts in descending order and finds the most active station (USC00519281) (2 points) -->
+<!--  -->
+<!-- Design a query that correctly finds the min, max, and average temperatures for the most active station (USC00519281) (3 points) -->
+<!--  -->
+<!-- Design a query to get the previous 12 months of temperature observation (TOBS) data that filters by the station that has the greatest number of observations (3 points) -->
+<!--  -->
+<!-- Save the query results to a Pandas DataFrame (2 points) -->
+<!--  -->
+<!-- Correctly plot a histogram with bins=12 for the last year of data using tobs as the column to count. (4 points) -->
 
 API SQLite Connection & Landing Page (10 points)
 To receive all points, your Flask application must
