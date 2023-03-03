@@ -59,7 +59,7 @@ def stations():
     '''
     session = Session(engine)
 
-    total_stations = session.query(station.station).distinct().count()
+    total_stations = session.query(station.name).all()
 
     session.close()
 
